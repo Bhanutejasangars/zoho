@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+.signUp-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20rem;
+    margin-top: 2rem;
+    gap: 1rem;
+    border: solid 0.1px #ddd;
+}
+.main-heading{
+    margin: 2rem auto;
+
+}
+.sign-up-link{
+    text-decoration: none;
+    color: #4d4dff;
+    
+}
+.main-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.label-email,.label-password{
+    font-size: 1rem;
+}
+.input-email,.input-password{
+    width: 15rem;
+    height: 1.6rem;
+    border: 2px solid #aaa;
+    border-radius: 4px;
+    outline: none;
+    transition: .2s;
+}
+.input-email:focus,.input-password:focus{
+    width: 15rem;
+    height: 1.6rem;
+    border-color:  dodgerblue;
+    box-shadow: 0 0 8px 0 dodgerblue ;
+}
+
+.a-forgot-password{
+    margin-left: 7rem;
+    font-size: 0.8rem;
+    text-decoration: none;
+    color: #4d4dff;
+}
+.button-box{
+    margin-bottom: 2rem;
+}
+.btn-box{
+    display: flex;
+    align-items: center;
+    width: 15rem;
+    height:1.6rem;
+    background-color: #4d4dff;
+    border-radius: 3px;
+    border: 2px solid #4d4dff
+}
+.btn-box:hover{
+    background-color: #1212af;
+    border-color: #1212af;
+}
+.btn{
+    background-color: #4d4dff;
+    border:none;
+    border-radius: 4px;
+}
+
+.span-btn{
+    color: aliceblue;
+    align-items: center;
+    justify-content: center;
+    margin-left: 4.5rem;
+}
+.lock-icon{
+    width: 1.2rem;
+    height: 1.2rem;
+    stroke: azure;
+    margin-left: 0.4rem;
+}
